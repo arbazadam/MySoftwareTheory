@@ -1,0 +1,13 @@
+Docker notes..
+
+Image:- An image is a compressed,self-contained piece of software which has to be unwrapped in order to use the functionality.Now Now this image may contain any software,operating system,service etc.
+
+What is a docker image?
+
+A docker image is created by the sequence of commands written in a file called as Dockerfile. When this docker file is executed using a docker command it results into a docker image with a name which we specify. When the image is executed by "docker run" command it will by itself start whatever application or a service it has to start on its execution.
+
+Repository:- A repository is the place on cloud which holds the different version of an image.
+
+Registry:-A registry is a cloud hosting platform which can hold your repository.
+
+Docker Commands: docker pull  //This command will download an image from the docker registry and store it on a local machine...
