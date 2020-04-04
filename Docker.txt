@@ -11,3 +11,5 @@ Repository:- A repository is the place on cloud which holds the different versio
 Registry:-A registry is a cloud hosting platform which can hold your repository.
 
 Docker Commands: docker pull  //This command will download an image from the docker registry and store it on a local machine...
+		 docker images //This will list all the images present on your system locally.
+		 docker container ls //This will list all the running instances of the image.
