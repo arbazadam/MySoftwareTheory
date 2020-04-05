@@ -13,3 +13,8 @@ Registry:-A registry is a cloud hosting platform which can hold your repository.
 Docker Commands: docker pull  //This command will download an image from the docker registry and store it on a local machine...
 		 docker images //This will list all the images present on your system locally.
 		 docker container ls //This will list all the running instances of the image.
+		 docker container exec container_name ls /tmp //This command is used to execute commands on a running container, in this example it lists all the files in the tmp folder of the running container.
+		 docker container cp file_from_the_local_machine container_name:/tmp //Copies file from the host machine inside the container.
+		 docker container commit container_name image_name:image_tag //Creating an image out of the running container.
+		 docker container commit --change ='cmd ["java","-jar","jar_name"] //This command is used to specify, which command is to be run on the container startup.
+		
