@@ -1,0 +1,12 @@
+AWS Security Groups are a flexible tool to help you secure your Amazon EC2 instances. 
+AWS Security Groups are just one of several tools AWS offers to help you secure your cloud environment, 
+but that doesn’t mean AWS security is hands-off. You’re still responsible for securing your applications and data in the cloud, 
+and that means you need to leverage additional tools, such as Threat Stack, to gain better visibility and take a proactive approach to security in the cloud. Threat Stack is an AWS Advanced Technology Partner, offering an intrusion detection platform that’s built in AWS, to serve AWS.
+
+Steps  to connect to an ec2 instance: 
+
+->Launch your instance with minimum configuration and download the pem file.
+->Convert the pem file to ppk using putty gen.
+->Launch putty and under the session tab you will see the hostname and port number, in the hostname textfield give the hostname of your ec2 instance and keep the port default 22.
+->You can save the session related information in the data tab.
+->Go to the authentication tab and load the ppk file and click okay, you will be able to connect to your ec2 instance.
